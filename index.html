@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rizal Technological University</title>
+        <link rel="icon" type="image/png" href="Images/RTU_logo.png">
+
+
+        <style>
+            html, body {
+                margin: 0;
+                padding: 0;
+                font-family: Arial, sans-serif;
+            }
+
+            .fixed-div {
+                background-color: #FFD100;
+                position: sticky;
+                top: 0;
+                width: 100%;
+                z-index: 1000;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+            }
+
+            .myDiv3 {
+                padding: 10px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .navbar {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 10px 20px;
+                flex-wrap: wrap;
+            }
+
+            .logo img {
+                width: 400px;
+                height: auto;
+                display: block;
+            }
+
+            .tabs {
+                display: flex;
+                gap: 15px;
+                flex-wrap: wrap;
+            }
+
+            .tabs a {
+                text-decoration: none;
+                color: #003366;
+                font-weight: bold;
+                padding: 8px 14px;
+                border-radius: 5px;
+                transition: 0.3s;
+            }
+
+            .tabs a:hover {
+                background-color: #003366;
+                color: white;
+            }
+
+            .content {
+                padding: 30px;
+            }
+
+            .content section{
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .fullscreen-image {
+                width: 100vw;
+                height: 100vh;
+                overflow: hidden;
+            }
+
+            .fullscreen-image img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            section {
+                scroll-margin-top: 150px; 
+                margin-bottom: 80px;
+                width: 60%;
+            }
+
+            h2 {
+                color: #003366;
+                font-size: xx-large;
+                text-align: center;
+            }
+
+            p{
+                font-size: larger;
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="fixed-div">
+            <div class="navbar">
+
+                <div class="logo">
+                    <a href="#top">
+                        <img src="Images/cropped-RTU-Website-Logo-scaled-1.png" alt="RTU Logo">
+                    </a>
+                </div>
+
+                <div class="tabs">
+                    <a href="#mission">Mission</a>
+                    <a href="#vision">Vision</a>
+                    <a href="#philosophy">Philosophy</a>
+                    <a href="#departments">Departments</a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="fullscreen-image">
+                <img src="Images/RTU_Campus.jpg" alt="RTU_Campus.jpg">
+        </div>
+
+        <div class="content">
+
+            <section id="mission">
+                <h2>Mission</h2>
+                <p>To produce competent and socially responsible professionals through innovative instructions, 
+                    high-impact research, and sustainable extension services responsive to the diverse needs of glocal communities.<br><br>
+
+                    Makalikha ng mga bihasa at responsableng mga propesyonal sa pamamagitan ng makabago at mataas na kalidad ng pagtuturo, 
+                    makabuluhang pananaliksik, at pangmatagalang serbisyong pang-ekstensyon na tumutugon sa iba’t ibang pangangailangan ng 
+                    glokal na komunidad.</p>
+            </section>
+
+            <section id="vision">
+                <h2>Vision</h2>
+                <p>A smart and transnational university.<br><br>
+
+                Isang smart at transnasyonal na unibersidad.</p>
+            </section>
+
+            <section id="philosophy">
+                <h2>Philosophy</h2>
+                <p>The Rizal Technological University believes in nurturing the creative potentials of Filipinos to excel 
+                    in a dynamic world order and advocates commitment to global peace and sustainable development along with 
+                    sense of moral responsibility and cultural patronage.<br><br>
+
+                    Naniniwala ang Rizal Technological University sa pangangalaga sa malikhaing potensyal ng mga Filipino 
+                    upang manguna sa pabago-bagong takbo ng mundo at magtaguyod ng komitment patungo sa pandaigdigang kapayapaan 
+                    at napananatiling pag-unlad kasabay ng moral na responsibilidad at kultural na pagtangkilik.</p>
+            </section>
+
+            <section id="departments">
+                <h2>Departments</h2>
+                <p style="text-align: left;"><b>College of Engineering and Architecture (CEA): </b>Includes departments such as Architecture, 
+                    Civil Engineering, and various engineering specializations like Instrumentation and Control, Industrial, and Computer 
+                    Engineering.<br><br>
+                    <b>College of Business, Entrepreneurship, and Accountancy (CBEA): </b>Offers programs in Accountancy, Entrepreneurship, 
+                    and Office Administration.<br><br>
+                    <b>College of Education (CEd): </b>Offers Bachelor of Secondary Education majors in English, Math, Science, and 
+                    Social Studies, and Bachelor of Technical-Vocational Teacher Education (BTVTED) program with several specialized majors, 
+                    including Visual Graphic Design, Animation, Computer Systems Servicing, Garments Fashion and Design, Electronics Technology, 
+                    and Welding and Fabrication Technology. <br><br>
+                    <b>College of Arts and Sciences (CAS): </b>Includes departments like Psychology and Mathematics.<br><br>
+                    <b>Graduate School: </b>Offers advanced degrees in Education, Public Administration, Business Administration, and Engineering.<br><br>
+                    <b>Junior High School (RTU-JHS): </b>Features specialized K to 12 curriculum with technology-focused subjects.</p>
+            </section>
+
+        </div>
+
+        <div class="myDiv3" style="background-color: #003366;">
+            <p style="color: white;">All rights reserved</p>
+        </div>
+
+    </body>
+</html>
